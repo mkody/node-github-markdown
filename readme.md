@@ -15,6 +15,7 @@ Install.
 
 ```sh
 $ git clone https://github.com/mkody/node-github-markdown.git
+$ cd node-github-markdown
 $ npm install -g .
 ```
 
