@@ -18,7 +18,11 @@ h2 > .anchor {
 	display: inline-block !important;
 }
 
-
 pre {
 	max-height: 215px;
+}
+
+body > .top {
+    float: right;
+    margin: -20px 20px;
 }

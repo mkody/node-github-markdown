@@ -13,9 +13,11 @@ html
     .container
       .markdown-body
         !=content
+    a(class='top', href='#top') Scroll to top
     script
       include ./node_modules/anchorific/min/anchorific.min.js
     script.
       $('.markdown-body').anchorific({
-        position: 'prepend'
+        position: 'prepend',
+        speed: 1200
       });
