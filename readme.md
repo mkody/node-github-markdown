@@ -1,13 +1,13 @@
 # [node-github-markdown](https://npmjs.org/package/github-markdown)
 
-## About
-
-Parse GitHub flavored markdown to static html.
-
 [![Build Status](https://travis-ci.org/mkody/node-github-markdown.svg?branch=master)](https://travis-ci.org/mkody/node-github-markdown)
 [![GitHub version](https://badge.fury.io/gh/mkody%2Fnode-github-markdown.svg)](http://badge.fury.io/gh/mkody%2Fnode-github-markdown)
 [![Dependency Status](https://david-dm.org/mkody/node-github-markdown.svg)](https://david-dm.org/mkody/node-github-markdown)
 [![devDependency Status](https://david-dm.org/mkody/node-github-markdown/dev-status.svg)](https://david-dm.org/mkody/node-github-markdown#info=devDependencies)
+
+## About
+
+Parse GitHub flavored markdown to static html.
 
 ## Usage
 
@@ -49,11 +49,11 @@ Specify custom template (defaults to standard template)
 $ ghmd --template custom.jade markdown.md
 ```
 
-## `--help`
+### `--help`
 
 Show help message.
 
-## `--version`
+### `--version`
 
 Show package version.
 
