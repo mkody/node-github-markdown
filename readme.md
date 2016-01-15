@@ -1,32 +1,21 @@
 # [node-github-markdown](https://npmjs.org/package/github-markdown)
 
-[![Build Status](https://travis-ci.org/1000ch/node-github-markdown.svg?branch=master)](https://travis-ci.org/1000ch/node-github-markdown)
-[![NPM version](https://badge.fury.io/js/github-markdown.svg)](http://badge.fury.io/js/github-markdown)
-[![Dependency Status](https://david-dm.org/1000ch/node-github-markdown.svg)](https://david-dm.org/1000ch/node-github-markdown)
-[![devDependency Status](https://david-dm.org/1000ch/node-github-markdown/dev-status.svg)](https://david-dm.org/1000ch/node-github-markdown#info=devDependencies)
+## About
 
 Parse GitHub flavored markdown to static html.
 
-## Installation
-
-Install via npm.
-
-```bash
-$ npm install github-markdown
-```
-
-`v2.0.0` requires Node.js `v4.0.0`~. If you are using older version of Node.js, specify the version `v1.2.3`.
-
-```bash
-$ npm install github-markdown@1.2.3
-```
+[![Build Status](https://travis-ci.org/mkody/node-github-markdown.svg?branch=master)](https://travis-ci.org/mkody/node-github-markdown)
+[![GitHub version](https://badge.fury.io/gh/mkody%2Fnode-github-markdown.svg)](http://badge.fury.io/gh/mkody%2Fnode-github-markdown)
+[![Dependency Status](https://david-dm.org/mkody/node-github-markdown.svg)](https://david-dm.org/mkody/node-github-markdown)
+[![devDependency Status](https://david-dm.org/mkody/node-github-markdown/dev-status.svg)](https://david-dm.org/mkody/node-github-markdown#info=devDependencies)
 
 ## Usage
 
 Install.
 
 ```sh
-$ npm install -g github-markdown
+$ git clone https://github.com/mkody/node-github-markdown.git
+$ npm install -g .
 ```
 
 Parse markdowns.
@@ -59,13 +48,18 @@ Specify custom template (defaults to standard template)
 $ ghmd --template custom.jade markdown.md
 ```
 
-### `--help`
+## `--help`
 
 Show help message.
 
-### `--version`
+## `--version`
 
 Show package version.
+
+## Sublime Text Build File
+
+The `ghmd.sublime-build` can be used as a build file for Sublime Text (at least the version 3).
+It will create the *.html* file on the parrent directory of the .md file. I'm using this as the *.md* files are in a "source" folder (currently only tested on Windows).
 
 ## License
 

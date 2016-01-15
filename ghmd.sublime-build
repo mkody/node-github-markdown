@@ -1,0 +1,7 @@
+{
+    "cmd": ["ghmd", "--dest", "../$file_name", "$file"],
+    "selector": "*.md",
+    "windows" : {
+        "shell": true
+    }
+}

@@ -1,0 +1,14 @@
+/*
+ * Some edits by André "MKody" Fernandes <im@kdy.ch>
+*/
+
+.container {
+	margin-top: 15px;
+	margin-bottom: 300px;
+	max-width: 900px;
+	width: inherit !important;
+}
+
+pre {
+	max-height: 215px;
+}
