@@ -3,11 +3,21 @@
 */
 
 .container {
-	margin-top: 15px;
 	margin-bottom: 300px;
 	max-width: 900px;
-	width: inherit !important;
+	padding: 20px;
+	width: inherit;
 }
+
+.markdown-body .anchor {
+	display: none;
+	font-size: 0.7em;
+}
+
+h2 > .anchor {
+	display: inline-block !important;
+}
+
 
 pre {
 	max-height: 215px;

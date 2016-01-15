@@ -8,7 +8,14 @@ html
       include ./node_modules/primer-markdown/dist/user-content.min.css
       include ./node_modules/highlight.js/styles/github.css
       include ./custom.css
+    script(src='https://code.jquery.com/jquery-1.12.0.min.js')
   body
     .container
       .markdown-body
         !=content
+    script
+      include ./node_modules/anchorific/min/anchorific.min.js
+    script.
+      $('.markdown-body').anchorific({
+        position: 'prepend'
+      });

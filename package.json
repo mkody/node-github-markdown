@@ -28,6 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^1.5.0",
+    "anchorific": "renettarenula/anchorific.js",
     "highlight.js": "^9.0.0",
     "is-md": "^1.0.0",
     "jade": "^1.11.0",
