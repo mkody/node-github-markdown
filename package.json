@@ -27,15 +27,17 @@
   },
   "license": "MIT",
   "dependencies": {
-    "async": "^1.5.0",
     "anchorific": "renettarenula/anchorific.js",
+    "async": "^1.5.0",
     "highlight.js": "^9.0.0",
     "is-md": "^1.0.0",
     "jade": "^1.11.0",
+    "jquery": "^2.2.2",
     "listy": "^2.0.1",
     "markdown-it": "^5.0.2",
     "minimist": "^1.2.0",
     "path-is-absolute": "^1.0.0",
+    "primer-css": "^3.0.0",
     "primer-markdown": "^2.5.0"
   },
   "devDependencies": {
